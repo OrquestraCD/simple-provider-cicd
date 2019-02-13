@@ -23,7 +23,7 @@ This is meant to be imported as a module in your own Terraform templates:
 
 ```terraform
 module "codepipeline" {
-  source = "https://github.com/rackerlabs/simple-provider-cicd?ref=master"
+  source = "github.com/rackerlabs/simple-provider-cicd?ref=master"
 
   github__owner  = "terraform-providers"
   github__repo   = "terraform-provider-aws"
